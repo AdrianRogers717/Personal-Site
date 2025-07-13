@@ -487,38 +487,23 @@ p {
   max-width: 300px;
   position: relative;
   overflow: hidden;
-  transition: all 0.5s ease-in-out;
   padding-bottom: 5vh;
   padding-right: 70px;
 }
 
 
 
-.gallery-item:not(.active) {
-  width: calc((100% - 20px) / 2);
-}
-
 .gallery-image {
   width: 100%;
   height: auto;
-  filter: blur(5px);
-  transition: all 0.5s ease-in-out;
 }
 .gallery-image1 {
   height: 70%;
   width: auto;
   padding-top: 30px;
   padding-left: 30px;
-  filter: blur(5px);
-  transition: all 0.5s ease-in-out;
 }
 
-.gallery-item.active .gallery-image {
-  filter: blur(0);
-}
-.gallery-item.active .gallery-image1 {
-  filter: blur(0);
-}
 
 .gallery-text {
   position: absolute;
@@ -530,19 +515,6 @@ p {
   padding-left: 20px;
 }
 
-.gallery-item.active {
-  width: 40%;
-  z-index: 1;
-}
-
-.gallery-item:hover {
-  width: 40%;
-  z-index: 1;
-}
-
-.gallery-item:not(.active):hover {
-  width: calc((100% - 20px) / 2);
-}
 
 .m-gallery-item {
   position: relative;
