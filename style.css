@@ -11,6 +11,7 @@ body {
   font-family: "CascadiaCode";
   font-weight: normal;
   overflow-x: hidden;
+  position: relative;
 }
 
 
@@ -594,6 +595,9 @@ p {
   width: calc((100% - 20px) / 2);
   }
 
+  html, body {
+    overflow-x: hidden;
+  }
 
 @media all and (min-width: 959px) {
   .desktop {
